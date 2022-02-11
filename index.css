@@ -1,0 +1,16 @@
+body {
+  margin: 0 auto;
+}
+
+#header {
+  margin: 0;
+  text-align: center;
+}
+
+#drop-down-list,
+#counter,
+#history {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}

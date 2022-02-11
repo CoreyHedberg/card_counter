@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="index.css" />
+    <script defer src="index.js"></script>
+    <title>Card Counter</title>
+  </head>
+  <body>
+    <h2 id="header">Card Counter</h2>
+    <div id="counter">
+      <div>Count</div>
+      <div id="count"></div>
+    </div>
+    <div id="drop-down-list">
+      <label for="cards">Select card</label>
+      <select title="cards" name="cards" id="cards-drop-down">
+        <option value="2">2</option>
+        <option value="3">3</option>
+        <option value="4">4</option>
+        <option value="5">5</option>
+        <option value="6">6</option>
+        <option value="10">10</option>
+        <option value="J">J</option>
+        <option value="Q">Q</option>
+        <option value="K">K</option>
+        <option value="A">A</option>
+      </select>
+      <button id="button">Enter</button>
+    </div>
+    <div id="history">
+      <h4>History</h4>
+      <div id="card-history"></div>
+    </div>
+  </body>
+</html>
