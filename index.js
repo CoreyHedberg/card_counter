@@ -22,7 +22,14 @@ function cardInput() {
       count--
       break
   }
-  console.log(count)
+  // Show the count on the webpage
   document.getElementById("count").innerText = count
+  // Create the div element for the card history
+  const CREATE_DIV = document.createElement("div")
+  const CREATE_NODE = document.createTextNode(CARD)
+  CREATE_DIV.appendChild(CREATE_NODE)
+  document.getElementById("card-history").appendChild(CREATE_DIV)
+  // Add the cards to the CARD_HISTORY array
+  CARD_HISTORY.push(CARD)
   return count
 }
