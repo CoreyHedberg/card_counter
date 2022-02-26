@@ -14,7 +14,7 @@ Click [here](https://googlechrome.github.io/lighthouse/viewer/?psiurl=https%3A%2
 
 <image src="./readme_files/readme_screenshot.gif">
 
-This quick, little project - a mini-project if you will - was borne out of one of the Free Code Camp challenges about writing code to count cards in a game of blackjack.
+This quick, little project - a mini-project if you will - was borne out of one of the Free Code Camp challenges about writing a program to count cards in a game of blackjack.
 
 ## Author
 
