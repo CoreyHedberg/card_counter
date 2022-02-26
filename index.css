@@ -17,7 +17,7 @@ body {
 }
 
 .countSection {
-  height: 50px;
+  height: 60px;
 }
 
 #drop-down-list,
@@ -30,11 +30,17 @@ body {
 
 .heading {
   color: var(--sub-heading-color);
+  margin-bottom: 0.5rem;
 }
 
 #cards-drop-down {
   font-size: 1rem;
   color: var(--text-color);
+  margin-bottom: 0.5rem;
+}
+
+#button {
+  margin-bottom: 0.5rem;
 }
 
 #count,
